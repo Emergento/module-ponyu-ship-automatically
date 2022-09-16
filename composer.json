@@ -1,0 +1,20 @@
+{
+  "name": "emergento/module-ponyu-ship-automatically",
+  "description": "Ship automatically a PonyU order at creation",
+  "type": "magento2-module",
+  "require": {
+      "php": "~8.1",
+      "magento/framework": "103.0.*"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Emergento\\PonyUShipAutomatically\\": ""
+    }
+  }
+}
